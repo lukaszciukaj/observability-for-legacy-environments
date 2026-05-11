@@ -2,7 +2,7 @@
 
 This repo contains a collection of reference architectures, integration patterns, and practical frameworks focused on bringing modern observability to legacy, industrial, and operational technology (OT) environments.
 
-This repository explores how open standards such as OpenTelemetry, Prometheus, MQTT, and OPC UA can help organizations improve visibility into systems that were never originally designed for cloud-native observability.
+This repository explores how open standards such as OpenTelemetry, Prometheus, MQTT can help organizations improve visibility into systems that were never originally designed for cloud-native observability.
 
 ---
 
@@ -138,7 +138,7 @@ In many environments, partial visibility is significantly better than no visibil
 
 ## 📝 Publications & Articles
 
-The following publications explore observability, OpenTelemetry, industrial modernization, and operational resilience across traditional and legacy environments.
+The following publications showcase my work on observability, OpenTelemetry, industrial modernization, and operational resilience, with a focus on pragmatic modernization strategies for traditional and legacy environments.
 
 ### OpenTelemetry & Industrial Observability
 
