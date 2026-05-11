@@ -275,3 +275,33 @@ This reference architecture demonstrates how OPC UA and OpenTelemetry can work t
 Legacy PLCs can be integrated through an external OPC UA Server or gateway, while modern PLCs with built-in OPC UA support can be connected directly. Telemetry can then be collected using an OPC UA Client or a custom OPC UA Receiver, routed through the OpenTelemetry Collector, and exported to an observability backend.
 
 The result is a flexible, vendor-neutral approach for bringing modern observability practices to traditional industrial systems.
+
+---
+
+## Related Technologies & References
+
+### OPC UA
+
+- [OPC Foundation – OPC UA Overview](https://opcfoundation.org/about/opc-technologies/opc-ua/)  
+  Official overview of the OPC Unified Architecture standard widely used in industrial automation and manufacturing environments.
+
+### Python OPC UA Libraries
+
+- [asyncua (FreeOpcUa Project)](https://github.com/FreeOpcUa/opcua-asyncio)  
+  Modern asynchronous Python OPC UA client/server library commonly used for OPC UA integrations, telemetry extraction, and industrial connectivity projects.
+
+### Industrial OPC UA Implementations
+
+- [open62541](https://www.open62541.org/)  
+  Popular open-source OPC UA implementation in C/C++ commonly used in embedded, industrial, and edge environments.
+
+- [Eclipse Milo](https://github.com/eclipse/milo)  
+  Java-based OPC UA stack and SDK widely used for industrial integrations and OPC UA application development.
+
+### OpenTelemetry
+
+- [OpenTelemetry Official Website](https://opentelemetry.io/)  
+  Open-source observability framework for metrics, logs, and distributed tracing.
+
+- [OpenTelemetry Collector](https://opentelemetry.io/docs/collector/)  
+  Vendor-neutral telemetry collection, processing, and export pipeline.
