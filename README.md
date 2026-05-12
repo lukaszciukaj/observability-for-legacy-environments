@@ -166,6 +166,25 @@ The following publications showcase my work on observability, OpenTelemetry, ind
   Explores how AI-driven observability and security analytics can improve operational resilience and visibility across plant operations and industrial systems.  
   https://www.splunk.com/en_us/blog/observability/resilient-by-design-the-role-of-ai-and-security-in-observability-for-plant-operations.html
 
+---
+
+### OpenTelemetry & Industrial Protocol Integrations
+
+- **Modbus Receiver for OpenTelemetry Collector**
+
+  Experimental OpenTelemetry Collector receiver designed for industrial and operational technology (OT) environments, enabling telemetry extraction from Modbus TCP devices and conversion into standard OpenTelemetry metrics. The project explores industrial telemetry normalization, protocol-aware metric generation, and extending OpenTelemetry deeper into manufacturing and legacy environments using vendor-neutral observability pipelines.
+
+  Key areas include:
+
+  - Modbus TCP telemetry extraction
+  - OpenTelemetry Collector receiver development
+  - Industrial protocol normalization
+  - Register decoding and byte-order handling
+  - OT telemetry modeling
+  - End-to-end telemetry pipelines for industrial systems
+
+  🔗 Project Repository  
+  https://github.com/lukaszciukaj/modbusreceiver
 
 ---
 
@@ -211,6 +230,6 @@ This repository is licensed under the MIT License unless otherwise stated.
 
 ## Disclaimer
 
-The views and opinions expressed in this repository are my own and do not necessarily reflect the views of my employer or any affiliated organization.
+The views and opinions expressed in this repository are my own and do not reflect the views of my employer or any affiliated organization.
 
 All architectures, examples, and integrations should be independently evaluated and tested before use in production environments.
