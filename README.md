@@ -1,38 +1,41 @@
-# Observability for Legacy Environments
+# 🏭 Observability for Legacy Environments
 
-This repo contains a collection of reference architectures, integration patterns, and practical frameworks focused on bringing modern observability to legacy, industrial, and operational technology (OT) environments.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![OpenTelemetry Member](https://img.shields.io/badge/OpenTelemetry-Member-blue?logo=opentelemetry)](https://opentelemetry.io)
+[![CNCF](https://img.shields.io/badge/CNCF-Cloud%20Native%20RTP-informational)](https://community.cncf.io)
+[![Medium](https://img.shields.io/badge/Medium-Articles-black?logo=medium)](https://medium.com/@lukasz.ciukaj)
 
-This repository explores how open standards such as OpenTelemetry, Prometheus, MQTT can help organizations improve visibility into systems that were never originally designed for cloud-native observability.
+> Reference architectures, integration patterns, and practical frameworks for bringing modern observability to legacy, industrial, and operational technology (OT) environments — using open standards like OpenTelemetry, Prometheus, and MQTT.
+
+---
+
+## 📋 Table of Contents
+
+- [Mission](#-mission)
+- [Key Areas](#-key-areas)
+- [Publications & Articles](#-publications--articles)
+- [Projects](#-projects)
+- [Related Technologies](#-related-technologies)
+- [Author](#-author)
+- [Contributions](#-contributions)
+- [License](#-license)
 
 ---
 
 ## 🎯 Mission
 
-Many manufacturing, industrial, and legacy environments still operate with limited telemetry visibility, proprietary protocols, fragmented monitoring systems, and aging infrastructure.
+Many manufacturing, industrial, and legacy environments operate with limited telemetry visibility, proprietary protocols, fragmented monitoring systems, and aging infrastructure — and simply replacing those systems isn't an option.
 
-The goal of this repository is to help bridge that gap by providing:
+This repository bridges that gap with:
 
-- Practical observability architectures
+- Practical observability architectures for OT/ICS environments
 - Industrial telemetry integration patterns
-- Legacy modernization decision trees
+- Legacy modernization decision frameworks
 - OpenTelemetry instrumentation examples
-- Protocol translation concepts
+- Protocol translation and normalization concepts
 - Vendor-neutral implementation guidance
 
-The focus is on pragmatic modernization approaches that improve visibility without requiring disruptive replacement of existing systems.
-
----
-
-## 🏭 Target Environments
-
-This repository primarily focuses on:
-
-- Manufacturing environments
-- Industrial control systems (ICS)
-- Operational Technology (OT)
-- Legacy enterprise systems
-- Brownfield infrastructure
-- Hybrid IT / OT deployments
+The focus is on **pragmatic modernization** — improving visibility without disruptive replacement.
 
 ---
 
@@ -40,164 +43,98 @@ This repository primarily focuses on:
 
 ### OpenTelemetry for Industrial Systems
 
-Exploring how OpenTelemetry can extend beyond traditional cloud-native workloads into industrial and legacy environments.
+Extending OpenTelemetry beyond cloud-native workloads into industrial and legacy environments:
 
-Topics include:
-
-- Manual instrumentation
-- Protocol-aware telemetry extraction
-- Telemetry normalization
-- Distributed tracing concepts for industrial workflows
-- Collector-based architectures
-- Metrics and logs integration
-
----
+- Protocol-aware telemetry extraction (Modbus, OPC UA, MQTT)
+- Manual and auto instrumentation strategies
+- Telemetry normalization and semantic conventions for OT
+- Distributed tracing concepts adapted for industrial workflows
+- Custom OpenTelemetry Collector receiver development
+- Edge telemetry aggregation patterns
 
 ### Legacy Modernization Frameworks
 
-Reference decision trees and architectures for:
+Decision frameworks and reference architectures for:
 
-- Evaluating telemetry extraction options
-- Selecting integration approaches
-- Assessing protocol capabilities
+- Evaluating telemetry extraction options without disrupting operations
+- Selecting integration approaches (passive tap, active poll, protocol bridge)
+- Assessing protocol capabilities and constraints
 - Designing phased modernization strategies
-
----
+- Balancing observability investment against operational risk
 
 ### Unified Telemetry Pipelines
 
-Patterns for centralizing telemetry from heterogeneous systems into modern observability platforms using:
+Patterns for centralizing telemetry from heterogeneous systems:
 
-- OpenTelemetry Collector
-- MQTT bridges
-- Custom protocol adapters
-- Log parsing pipelines
-- Edge telemetry aggregation
-
----
-
-## 🏗️ Example Architecture Areas
-
-This repository may include:
-
-- OPC UA → OpenTelemetry integration patterns
-- Modbus telemetry extraction
-- MQTT normalization pipelines
-- OpenTelemetry Collector receiver concepts
-- Industrial observability reference architectures
-- Telemetry enrichment pipelines
-- Edge observability architectures
-- Protocol translation services
-- Legacy log normalization
-- OT visibility frameworks
-
----
-
-## ⚠️ Important Notes
-
-This repository is intended for educational, research, and architectural reference purposes.
-
-Industrial and manufacturing environments are highly sensitive operational systems. Any telemetry integration, instrumentation, or protocol interaction should be thoroughly tested and validated before deployment into production environments.
-
-Always follow:
-
-- Site operational procedures
-- Vendor recommendations
-- Safety requirements
-- Security policies
-- Change management processes
+- OpenTelemetry Collector pipeline design
+- MQTT normalization and bridge patterns
+- Custom protocol adapters and receivers
+- Log parsing pipelines for legacy formats
+- Edge aggregation before cloud egress
 
 ---
 
 ## 🌎 Why This Matters
 
-Industrial modernization increasingly depends on visibility.
+Legacy systems power critical infrastructure across manufacturing, energy, water, and transportation — and most will remain operational for decades. Visibility into these systems underpins:
 
-Many legacy systems remain operational for decades and cannot simply be replaced. Improving telemetry and observability around those systems can help organizations:
+- **Operational awareness** — understanding what your systems are actually doing
+- **Predictive maintenance** — catching anomalies before they become failures
+- **Cybersecurity** — detecting anomalous behavior in OT environments
+- **Analytics & AI** — telemetry is the foundation for any data-driven initiative
+- **Compliance** — audit trails and monitoring evidence for regulated industries
 
-- Improve operational awareness
-- Reduce troubleshooting time
-- Support predictive maintenance
-- Enhance cybersecurity visibility
-- Enable analytics initiatives
-- Build foundations for smart manufacturing
-
-In many environments, partial visibility is significantly better than no visibility at all.
+> In many environments, **partial visibility is significantly better than no visibility at all.**
 
 ---
-
-## 📚 Related Technologies
-
-- OpenTelemetry
-- Prometheus
-- Jaeger
-- Fluent Bit
-- MQTT Brokers
-- OPC UA
-- Modbus
 
 ## 📝 Publications & Articles
 
-The following publications showcase my work on observability, OpenTelemetry, industrial modernization, and operational resilience, with a focus on pragmatic modernization strategies for traditional and legacy environments.
-
 ### OpenTelemetry & Industrial Observability
-
-- **Bringing OpenTelemetry to OPC UA: Manual Instrumentation of an Industrial Protocol**  
-  Practical example of instrumenting OPC UA workflows with OpenTelemetry to improve visibility into industrial communications and legacy manufacturing systems.  
-  https://medium.com/@lukasz.ciukaj/bringing-opentelemetry-to-opc-ua-manual-instrumentation-of-an-industrial-protocol-2cfa03475164
-
-- **Demystifying OpenTelemetry: Why You Shouldn’t Fear Observability in Traditional Environments**  
-  OpenTelemetry blog article focused on simplifying observability adoption in non-cloud-native and traditional enterprise environments.  
-  https://opentelemetry.io/blog/2026/demystifying-opentelemetry/
-
-- **Your Critical Legacy App is a Black Box? Let's Change That in 5 Minutes!**  
-  Introduction to improving visibility into legacy applications using lightweight OpenTelemetry instrumentation approaches.  
-  https://opentelemetry.io/blog/2025/opentelemetry-for-legacy-app/
-
----
-
+ 
+- **[Extending OpenTelemetry into Industrial Environments with a Modbus Receiver (Medium)](https://medium.com/@lukasz.ciukaj/extending-opentelemetry-into-industrial-environments-with-a-modbus-receiver-7b5cb42bd430)**
+  
+  Walks through building a custom OpenTelemetry Collector receiver for Modbus TCP — covering the full pipeline from PLC register polling to OTel gauge metrics. This article is related to my project - [Modbus Receiver for OpenTelemetry Collector](https://github.com/lukaszciukaj/modbusreceiver)
+- **[Bringing OpenTelemetry to OPC UA: Manual Instrumentation of an Industrial Protocol (Medium)](https://medium.com/@lukasz.ciukaj/bringing-opentelemetry-to-opc-ua-manual-instrumentation-of-an-industrial-protocol-2cfa03475164)**
+  
+  Practical example of instrumenting OPC UA workflows with OpenTelemetry to improve visibility into industrial communications and legacy manufacturing systems.
+- **[Demystifying OpenTelemetry: Why You Shouldn't Fear Observability in Traditional Environments (OpenTelemetry Blog)](https://opentelemetry.io/blog/2026/demystifying-opentelemetry/)**
+  
+  Simplifying observability adoption in non-cloud-native and traditional enterprise environments.
+- **[Your Critical Legacy App is a Black Box? Let's Change That in 5 Minutes! (OpenTelemetry Blog)](https://opentelemetry.io/blog/2025/opentelemetry-for-legacy-app/)**
+  
+  Improving visibility into legacy applications using lightweight OpenTelemetry instrumentation approaches.
 ### Industrial Modernization & Operational Resilience
+ 
+- **[Driving Industrial Modernization: The Role of Observability and Data Analytics (Medium)](https://medium.com/@lukasz.ciukaj/driving-industrial-modernization-the-role-of-observability-and-data-analytics-478843e8c292)**
+  
+  How observability, telemetry pipelines, and analytics frameworks can modernize manufacturing environments without disruptive replacement.
+- **[Resilient by Design: The Role of AI and Security in Observability for Plant Operations (Splunk Blog)](https://www.splunk.com/en_us/blog/observability/resilient-by-design-the-role-of-ai-and-security-in-observability-for-plant-operations.html)**  
 
-- **Driving Industrial Modernization: The Role of Observability and Data Analytics**  
-  Discusses how observability, telemetry pipelines, and analytics frameworks can help modernize manufacturing and industrial environments without disruptive replacement strategies.  
-  https://medium.com/@lukasz.ciukaj/driving-industrial-modernization-the-role-of-observability-and-data-analytics-478843e8c292
-
-- **Resilient by Design: The Role of AI and Security in Observability for Plant Operations** *(Splunk Blog)*  
-  Explores how AI-driven observability and security analytics can improve operational resilience and visibility across plant operations and industrial systems.  
-  https://www.splunk.com/en_us/blog/observability/resilient-by-design-the-role-of-ai-and-security-in-observability-for-plant-operations.html
+  AI-driven observability and security analytics for improving operational resilience across plant operations and industrial systems.
 
 ---
 
-### OpenTelemetry & Industrial Protocol Integrations
+## 🔬 Projects & Contributions
 
-- **Modbus Receiver for OpenTelemetry Collector**
+### Modbus Receiver for OpenTelemetry Collector
 
-  Experimental OpenTelemetry Collector receiver designed for industrial and operational technology (OT) environments, enabling telemetry extraction from Modbus TCP devices and conversion into standard OpenTelemetry metrics. The project explores industrial telemetry normalization, protocol-aware metric generation, and extending OpenTelemetry deeper into manufacturing and legacy environments using vendor-neutral observability pipelines.
+An experimental OpenTelemetry Collector receiver for industrial and OT environments — enabling telemetry extraction from Modbus TCP devices and conversion into standard OpenTelemetry metrics. Written in Go, structured to follow official `otelcol-contrib` conventions.
 
-  Key areas include:
-
-  - Modbus TCP telemetry extraction
-  - OpenTelemetry Collector receiver development
-  - Industrial protocol normalization
-  - Register decoding and byte-order handling
-  - OT telemetry modeling
-  - End-to-end telemetry pipelines for industrial systems
-
-  🔗 Project Repository  
-  https://github.com/lukaszciukaj/modbusreceiver
+🔗 [lukaszciukaj/modbusreceiver](https://github.com/lukaszciukaj/modbusreceiver)
 
 ---
 
 ## 👨‍💻 Author
 
-**Lukasz Ciukaj** is a Solutions Architect specializing in standards-based observability and operational resilience, with a strong focus on modernizing traditional and legacy environments. His work focuses on bridging operational technology (OT), manufacturing systems, and legacy enterprise platforms with modern cloud-native observability standards such as OpenTelemetry. 
+**Lukasz Ciukaj** — Solutions Architect specializing in standards-based observability and operational resilience, with a focus on bridging OT, manufacturing, and legacy enterprise systems with modern cloud-native observability standards.
 
-Lukasz is also:
-- An official OpenTelemetry Member
-- Co-lead of the OpenTelemetry Blueprints initiative
-- Founder of the Cloud Native RTP community group (CNCF)
+- 🔵 Contributor and official **OpenTelemetry Member**
+- 🤝 Co-lead, **OpenTelemetry Blueprints** initiative
+- 🌐 Founder & Co-organizer, **Cloud Native RTP** community group (CNCF)
 
-His broader mission is to help organizations improve visibility, resiliency, and analytics capabilities across systems that were never originally designed for modern observability platforms.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-lciukaj-blue?logo=linkedin)](https://www.linkedin.com/in/lciukaj)
+[![Medium](https://img.shields.io/badge/Medium-%40lukasz.ciukaj-black?logo=medium)](https://medium.com/@lukasz.ciukaj)
 
 ---
 
@@ -205,31 +142,31 @@ His broader mission is to help organizations improve visibility, resiliency, and
 
 Contributions, ideas, architecture discussions, and feedback are welcome.
 
-Potential contribution areas:
-
+**Good areas to contribute:**
 - OpenTelemetry instrumentation examples
-- Industrial protocol integrations
-- Architecture diagrams
-- Receiver/exporter concepts
+- Industrial protocol integrations and receiver concepts
+- Architecture diagrams and reference implementations
 - OT observability case studies
 - Documentation improvements
-- Reference implementations
 
-If you would like to collaborate, provide technical feedback, or discuss ideas related to observability in industrial and legacy environments:
-
-- Open a GitHub issue in this repository
-- Connect and engage via [LinkedIn](https://www.linkedin.com/in/lciukaj)
+**To get involved:**
+- 🐛 Open a [GitHub Issue](../../issues) for bugs, ideas, or architecture discussions
+- 🔗 Connect via [LinkedIn](https://www.linkedin.com/in/lciukaj)
 
 ---
 
 ## 📄 License
 
-This repository is licensed under the MIT License unless otherwise stated.
+This repository is licensed under the [MIT License](LICENSE) unless otherwise stated.
 
 ---
 
 ## Disclaimer
 
-The views and opinions expressed in this repository are my own and do not reflect the views of my employer or any affiliated organization.
+The views and opinions expressed in this repository are solely my own and do not reflect the views of my employer or any affiliated organization.
 
-All architectures, examples, and integrations should be independently evaluated and tested before use in production environments.
+All architectures, examples, integrations, and receiver concepts are provided for educational and reference purposes only. They should be independently evaluated, tested, and validated before any use in production or operational environments. Industrial systems are safety-critical — always follow site procedures, vendor guidance, and change management processes.
+
+---
+
+*See also: [REFERENCES.md](REFERENCES.md) · [CHANGELOG.md](CHANGELOG.md)*
