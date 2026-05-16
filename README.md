@@ -105,6 +105,10 @@ Legacy systems power critical infrastructure across manufacturing, energy, water
   
   Improving visibility into legacy applications using lightweight OpenTelemetry instrumentation approaches.
 ### Industrial Modernization & Operational Resilience
+
+- **[Observability as Critical Infrastructure: Lessons from the Manufacturing USA Program Strategic Plan - Dcember 2025 (Medium)](https://medium.com/@lukasz.ciukaj/4e23501d386b)**
+
+  How operational visibility, telemetry interoperability, and open standards are becoming foundational capabilities for smart manufacturing — drawing on the Manufacturing USA Program Strategic Plan (December 2025).
  
 - **[Driving Industrial Modernization: The Role of Observability and Data Analytics (Medium)](https://medium.com/@lukasz.ciukaj/driving-industrial-modernization-the-role-of-observability-and-data-analytics-478843e8c292)**
   

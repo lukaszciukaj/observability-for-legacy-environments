@@ -13,6 +13,13 @@ Based on actual commit history. Format follows [Keep a Changelog](https://keepac
 
 ---
 
+## 2026-05-16
+ 
+### Added
+- **Publication:** [Observability as Critical Infrastructure: Lessons from the Manufacturing USA Program Strategic Plan - December 2025](https://medium.com/@lukasz.ciukaj/4e23501d386b) — how operational visibility, telemetry interoperability, and open standards are becoming foundational capabilities for smart manufacturing, drawing on the Manufacturing USA Program Strategic Plan (December 2025)
+
+---
+
 ## 2026-05-13
 
 ### Added
