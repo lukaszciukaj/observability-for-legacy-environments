@@ -8,8 +8,14 @@ Based on actual commit history. Format follows [Keep a Changelog](https://keepac
 ## [Unreleased]
 
 - OPC UA Receiver PR reference
-- New OpenTelemetry Blog article
 - New OpenTelemetry Blueprint
+
+---
+
+## 2026-05-19
+
+### Added
+- **Publication:** [Applying OpenTelemetry Security Practices in Legacy Environments](https://opentelemetry.io/blog/2026/security-legacy-environments/) — security challenges unique to legacy and industrial environments, covering Collector placement, network segmentation, sensitive operational data handling, and a pragmatic decision model for securing telemetry pipelines under real-world constraints
 
 ---
 

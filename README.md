@@ -91,10 +91,15 @@ Legacy systems power critical infrastructure across manufacturing, energy, water
 ## 📝 Publications & Articles
 
 ### OpenTelemetry & Industrial Observability
+
+- **[Applying OpenTelemetry Security Practices in Legacy Environments (OpenTelemetry Blog)](https://opentelemetry.io/blog/2026/security-legacy-environments/)**
+
+  Security challenges unique to legacy and industrial environments — covering Collector placement, network segmentation, sensitive operational data handling, and a pragmatic decision model for securing telemetry pipelines under real-world constraints.
  
 - **[Extending OpenTelemetry into Industrial Environments with a Modbus Receiver (Medium)](https://medium.com/@lukasz.ciukaj/extending-opentelemetry-into-industrial-environments-with-a-modbus-receiver-7b5cb42bd430)**
   
   Walks through building a custom OpenTelemetry Collector receiver for Modbus TCP — covering the full pipeline from PLC register polling to OTel gauge metrics. This article is related to my project - [Modbus Receiver for OpenTelemetry Collector](https://github.com/lukaszciukaj/modbusreceiver)
+  
 - **[Bringing OpenTelemetry to OPC UA: Manual Instrumentation of an Industrial Protocol (Medium)](https://medium.com/@lukasz.ciukaj/bringing-opentelemetry-to-opc-ua-manual-instrumentation-of-an-industrial-protocol-2cfa03475164)**
   
   Practical example of instrumenting OPC UA workflows with OpenTelemetry to improve visibility into industrial communications and legacy manufacturing systems.
