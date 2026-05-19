@@ -91,6 +91,10 @@ Legacy systems power critical infrastructure across manufacturing, energy, water
 ## 📝 Publications & Articles
 
 ### OpenTelemetry & Industrial Observability
+
+- **[Applying OpenTelemetry Security Practices in Legacy Environments (OpenTelemetry Blog)](https://opentelemetry.io/blog/2026/security-legacy-environments/)**
+  
+  Security challenges unique to legacy and industrial environments — covering Collector placement, network segmentation, sensitive operational data handling, and a pragmatic decision model for securing telemetry pipelines under real-world constraints.
  
 - **[Extending OpenTelemetry into Industrial Environments with a Modbus Receiver (Medium)](https://medium.com/@lukasz.ciukaj/extending-opentelemetry-into-industrial-environments-with-a-modbus-receiver-7b5cb42bd430)**
   
