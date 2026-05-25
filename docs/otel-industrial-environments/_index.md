@@ -9,20 +9,28 @@ status: experimental
 weight: 40
 ---
 
+![Status](https://img.shields.io/badge/status-experimental-orange)
+![License](https://img.shields.io/badge/license-Apache%202.0-blue)
+![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen)
+![Last Commit](https://img.shields.io/github/last-commit/lukaszciukaj/observability-for-legacy-environments)
+![Open Issues](https://img.shields.io/github/issues/lukaszciukaj/observability-for-legacy-environments)
+
+---
+
 > **This is not official OpenTelemetry documentation.**
 > This project is an independent, community-driven effort. It is not affiliated
 > with, endorsed by, or maintained by the OpenTelemetry project or the Cloud
-> Native Computing Foundation (CNCF). All semantic conventions defined here
-> are experimental and subject to change.
+> Native Computing Foundation (CNCF). All semantic conventions and definitions
+> defined here are experimental and subject to change.
 
 ## What this is
 
-OpenTelemetry emerged from cloud-native observability needs, particularly microservices and distributed systems. Industrial
-environments like manufacturing plants, utilities, oil and gas facilities, building
-automation systems, present a fundamentally different set of constraints: legacy
-protocols from the 1980s and 1990s, air-gapped networks, real-time control
-requirements, safety-critical systems, and hardware that was never designed with
-observability in mind.
+OpenTelemetry emerged from cloud-native observability needs, particularly
+microservices and distributed systems. Industrial environments — manufacturing
+plants, utilities, oil and gas facilities, building automation systems — present
+a fundamentally different set of constraints: legacy protocols from the 1980s
+and 1990s, air-gapped networks, real-time control requirements, safety-critical
+systems, and hardware that was never designed with observability in mind.
 
 This documentation exists to bridge that gap. It provides practical guidance for
 engineers and architects bringing OpenTelemetry into operational technology (OT)
@@ -52,8 +60,8 @@ Client-side Apps sections.
 
 This will require formal review by the OpenTelemetry documentation SIG and
 relevant working groups, as well as separate proposals for any semantic
-conventions. **Until that process is complete, nothing here should be treated 
-as an official OpenTelemetry specification**.
+conventions. **Until that process is complete, nothing here should be treated
+as an official OpenTelemetry specification.**
 
 If you are interested in participating in that process, see
 [Contributing](#contributing) below.
@@ -82,6 +90,30 @@ guidance, others are placeholders awaiting contribution.
 | Modbus | In progress | Experimental draft |
 | MQTT Sparkplug | In progress | Experimental draft |
 | PROFINET | Placeholder | Not started |
+
+## Related work
+
+This documentation grew out of practical work building industrial OTel
+integrations. The following projects and articles provide additional context:
+
+**Receivers**
+
+- [lukaszciukaj/modbusreceiver](https://github.com/lukaszciukaj/modbusreceiver) —
+  OpenTelemetry Collector receiver for Modbus TCP, structured to follow
+  official otelcol-contrib conventions
+- [bruegth/opentelemetry-collector-opcua-receiver](https://github.com/bruegth/opentelemetry-collector-opcua-receiver) —
+  Community OPC-UA receiver collecting logs via the OPC-UA Part 26
+  LogObject specification
+
+**Articles**
+
+- [Extending OpenTelemetry into Industrial Environments with a Modbus Receiver](https://medium.com/@lukasz.ciukaj/extending-opentelemetry-into-industrial-environments-with-a-modbus-receiver-7b5cb42bd430)
+- [Bringing OpenTelemetry to OPC UA: Manual Instrumentation of an Industrial Protocol](https://medium.com/@lukasz.ciukaj/bringing-opentelemetry-to-opc-ua-manual-instrumentation-of-an-industrial-protocol-2cfa03475164)
+- [Applying OpenTelemetry Security Practices in Legacy Environments](https://opentelemetry.io/blog/2026/security-legacy-environments/)
+- [Demystifying OpenTelemetry in Traditional Environments](https://opentelemetry.io/blog/2026/demystifying-opentelemetry/)
+
+For the broader context of observability in legacy and industrial environments,
+see the [root repository](../../../../README.md).
 
 ## Contributing
 
@@ -119,3 +151,10 @@ so effort is not duplicated and the change fits the overall structure.
 If you are interested in the longer-term effort to propose this content to the
 OpenTelemetry project, mention that in your issue. Coordination on that process
 will happen in the open.
+
+## License
+
+This documentation is licensed under [Apache 2.0](./LICENSE), consistent with
+the OpenTelemetry project. The remainder of the
+[observability-for-legacy-environments](../../../../README.md) repository is
+licensed under MIT.

@@ -10,6 +10,12 @@ Based on actual commit history. Format follows [Keep a Changelog](https://keepac
 - OPC UA Receiver PR reference
 - New OpenTelemetry Blueprint
 
+## 2026-05-25
+
+### Added
+- **docs/otel-industrial-environments/** — initial placeholder structure for
+  OpenTelemetry for Industrial Environments documentation
+
 ---
 
 ## 2026-05-19

@@ -131,6 +131,14 @@ An experimental OpenTelemetry Collector receiver for industrial and OT environme
 
 🔗 [lukaszciukaj/modbusreceiver](https://github.com/lukaszciukaj/modbusreceiver)
 
+### OpenTelemetry for Industrial Environments (Documentation)
+
+Community documentation for applying OpenTelemetry in industrial and OT
+environments — covering protocols, semantic conventions, Collector deployment,
+and security.
+
+🔗 [docs/otel-industrial-environments](./docs/otel-industrial-environments/)
+
 ---
 
 ## 👨‍💻 Author
@@ -165,7 +173,10 @@ Contributions, ideas, architecture discussions, and feedback are welcome.
 
 ## 📄 License
 
-This repository is licensed under the [MIT License](LICENSE) unless otherwise stated.
+This repository is licensed under the [MIT License](LICENSE) unless otherwise
+stated. The `docs/otel-industrial-environments/` section is licensed under
+[Apache 2.0](docs/otel-industrial-environments/LICENSE) for compatibility
+with the OpenTelemetry project.
 
 ---
 
