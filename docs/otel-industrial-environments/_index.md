@@ -86,34 +86,10 @@ guidance, others are placeholders awaiting contribution.
 
 | Protocol | Documentation status | Semantic conventions |
 |---|---|---|
-| OPC-UA | In progress | Experimental draft |
-| Modbus | In progress | Experimental draft |
-| MQTT Sparkplug | In progress | Experimental draft |
-| PROFINET | Placeholder | Not started |
-
-## Related work
-
-This documentation grew out of practical work building industrial OTel
-integrations. The following projects and articles provide additional context:
-
-**Receivers**
-
-- [lukaszciukaj/modbusreceiver](https://github.com/lukaszciukaj/modbusreceiver) —
-  OpenTelemetry Collector receiver for Modbus TCP, structured to follow
-  official otelcol-contrib conventions
-- [bruegth/opentelemetry-collector-opcua-receiver](https://github.com/bruegth/opentelemetry-collector-opcua-receiver) —
-  Community OPC-UA receiver collecting logs via the OPC-UA Part 26
-  LogObject specification
-
-**Articles**
-
-- [Extending OpenTelemetry into Industrial Environments with a Modbus Receiver](https://medium.com/@lukasz.ciukaj/extending-opentelemetry-into-industrial-environments-with-a-modbus-receiver-7b5cb42bd430)
-- [Bringing OpenTelemetry to OPC UA: Manual Instrumentation of an Industrial Protocol](https://medium.com/@lukasz.ciukaj/bringing-opentelemetry-to-opc-ua-manual-instrumentation-of-an-industrial-protocol-2cfa03475164)
-- [Applying OpenTelemetry Security Practices in Legacy Environments](https://opentelemetry.io/blog/2026/security-legacy-environments/)
-- [Demystifying OpenTelemetry in Traditional Environments](https://opentelemetry.io/blog/2026/demystifying-opentelemetry/)
-
-For the broader context of observability in legacy and industrial environments,
-see the [root repository](../../../../README.md).
+| OPC-UA | Not started | Not started |
+| Modbus | Not started | Not started |
+| MQTT Sparkplug | Not started | Not started |
+| PROFINET | Not started | Not started |
 
 ## Contributing
 
@@ -147,10 +123,6 @@ deployment pattern, and use case it touches.
 For significant additions — new sections, new protocols, or changes to the
 semantic conventions — please open an issue for discussion before writing,
 so effort is not duplicated and the change fits the overall structure.
-
-If you are interested in the longer-term effort to propose this content to the
-OpenTelemetry project, mention that in your issue. Coordination on that process
-will happen in the open.
 
 ## License
 
