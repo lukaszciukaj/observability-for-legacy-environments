@@ -10,6 +10,19 @@ Based on actual commit history. Format follows [Keep a Changelog](https://keepac
 - OPC UA Receiver PR reference
 - New OpenTelemetry Blueprint
 
+## 2026-05-25
+
+### Added
+- **docs/otel-industrial-environments/** — initial placeholder structure for
+  OpenTelemetry for Industrial Environments documentation
+
+---
+
+## 2026-05-19
+ 
+### Added
+- **Publication:** [Applying OpenTelemetry Security Practices in Legacy Environments](https://opentelemetry.io/blog/2026/security-legacy-environments/) — security challenges unique to legacy and industrial environments, covering Collector placement, network segmentation, sensitive operational data handling, and a pragmatic decision model for securing telemetry pipelines under real-world constraints
+
 ---
 
 ## 2026-05-19

@@ -93,7 +93,7 @@ Legacy systems power critical infrastructure across manufacturing, energy, water
 ### OpenTelemetry & Industrial Observability
 
 - **[Applying OpenTelemetry Security Practices in Legacy Environments (OpenTelemetry Blog)](https://opentelemetry.io/blog/2026/security-legacy-environments/)**
-
+  
   Security challenges unique to legacy and industrial environments — covering Collector placement, network segmentation, sensitive operational data handling, and a pragmatic decision model for securing telemetry pipelines under real-world constraints.
  
 - **[Extending OpenTelemetry into Industrial Environments with a Modbus Receiver (Medium)](https://medium.com/@lukasz.ciukaj/extending-opentelemetry-into-industrial-environments-with-a-modbus-receiver-7b5cb42bd430)**
@@ -132,6 +132,14 @@ An experimental OpenTelemetry Collector receiver for industrial and OT environme
 
 🔗 [lukaszciukaj/modbusreceiver](https://github.com/lukaszciukaj/modbusreceiver)
 
+### OpenTelemetry for Industrial Environments (Documentation)
+
+Community documentation for applying OpenTelemetry in industrial and OT
+environments — covering protocols, semantic conventions, Collector deployment,
+and security.
+
+🔗 [docs/otel-industrial-environments](./docs/otel-industrial-environments/)
+
 ---
 
 ## 👨‍💻 Author
@@ -166,7 +174,10 @@ Contributions, ideas, architecture discussions, and feedback are welcome.
 
 ## 📄 License
 
-This repository is licensed under the [MIT License](LICENSE) unless otherwise stated.
+This repository is licensed under the [MIT License](LICENSE) unless otherwise
+stated. The `docs/otel-industrial-environments/` section is licensed under
+[Apache 2.0](docs/otel-industrial-environments/LICENSE) for compatibility
+with the OpenTelemetry project.
 
 ---
 
