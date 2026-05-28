@@ -3,6 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![OpenTelemetry Member](https://img.shields.io/badge/OpenTelemetry-Member-blue?logo=opentelemetry)](https://opentelemetry.io)
 [![CNCF](https://img.shields.io/badge/CNCF-Cloud%20Native%20RTP-informational)](https://community.cncf.io)
+[![OTel Industrial Community](https://img.shields.io/badge/Community-OTel%20Industrial-orange?logo=slack)](./otel-industrial-community/)
 [![Medium](https://img.shields.io/badge/Medium-Articles-black?logo=medium)](https://medium.com/@lukasz.ciukaj)
 
 > Reference architectures, integration patterns, and practical frameworks for bringing modern observability to legacy, industrial, and operational technology (OT) environments — using open standards like OpenTelemetry, Prometheus, and MQTT.
@@ -15,6 +16,7 @@
 - [Key Areas](#-key-areas)
 - [Publications & Articles](#-publications--articles)
 - [Projects](#-projects)
+- [Community](#-community)
 - [Related Technologies](#-related-technologies)
 - [Author](#-author)
 - [Contributions](#-contributions)
@@ -109,9 +111,10 @@ Legacy systems power critical infrastructure across manufacturing, energy, water
 - **[Your Critical Legacy App is a Black Box? Let's Change That in 5 Minutes! (OpenTelemetry Blog)](https://opentelemetry.io/blog/2025/opentelemetry-for-legacy-app/)**
   
   Improving visibility into legacy applications using lightweight OpenTelemetry instrumentation approaches.
+
 ### Industrial Modernization & Operational Resilience
 
-- **[Observability as Critical Infrastructure: Lessons from the Manufacturing USA Program Strategic Plan - Dcember 2025 (Medium)](https://medium.com/@lukasz.ciukaj/4e23501d386b)**
+- **[Observability as Critical Infrastructure: Lessons from the Manufacturing USA Program Strategic Plan - December 2025 (Medium)](https://medium.com/@lukasz.ciukaj/4e23501d386b)**
 
   How operational visibility, telemetry interoperability, and open standards are becoming foundational capabilities for smart manufacturing — drawing on the Manufacturing USA Program Strategic Plan (December 2025).
  
@@ -139,6 +142,17 @@ environments — covering protocols, semantic conventions, Collector deployment,
 and security.
 
 🔗 [docs/otel-industrial-environments](./docs/otel-industrial-environments/)
+
+---
+
+## 🤝 Community
+
+OpenTelemetry in industrial environments is still largely unexplored territory. If you're working in this space — or just getting started — come find the people doing the same.
+
+- 💬 **CNCF Slack:** [#otel-industrial](https://slack.cncf.io/)
+- 📅 **Monthly meetup:** Last Thursday of the month, 10:00 AM ET — [meeting notes & calendar invite](https://docs.google.com/document/d/1dcIiKHnua1J0ZSbW0ByZSpoe8Agv1c0D-zTlCINUUg0/edit?tab=t.0)
+
+🔗 [otel-industrial-community/](./otel-industrial-community/)
 
 ---
 

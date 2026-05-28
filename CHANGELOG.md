@@ -10,18 +10,21 @@ Based on actual commit history. Format follows [Keep a Changelog](https://keepac
 - OPC UA Receiver PR reference
 - New OpenTelemetry Blueprint
 
+---
+
+## 2026-05-28
+
+### Added
+- **otel-industrial-community/** — community space for the #otel-industrial CNCF Slack channel and monthly meetup (last Thursday of the month, 10 AM ET)
+- **README.md** — added Community section linking to #otel-industrial CNCF Slack channel and monthly meetup
+
+---
+
 ## 2026-05-25
 
 ### Added
 - **docs/otel-industrial-environments/** — initial placeholder structure for
   OpenTelemetry for Industrial Environments documentation
-
----
-
-## 2026-05-19
- 
-### Added
-- **Publication:** [Applying OpenTelemetry Security Practices in Legacy Environments](https://opentelemetry.io/blog/2026/security-legacy-environments/) — security challenges unique to legacy and industrial environments, covering Collector placement, network segmentation, sensitive operational data handling, and a pragmatic decision model for securing telemetry pipelines under real-world constraints
 
 ---
 
@@ -33,7 +36,7 @@ Based on actual commit history. Format follows [Keep a Changelog](https://keepac
 ---
 
 ## 2026-05-16
- 
+
 ### Added
 - **Publication:** [Observability as Critical Infrastructure: Lessons from the Manufacturing USA Program Strategic Plan - December 2025](https://medium.com/@lukasz.ciukaj/4e23501d386b) — how operational visibility, telemetry interoperability, and open standards are becoming foundational capabilities for smart manufacturing, drawing on the Manufacturing USA Program Strategic Plan (December 2025)
 
